@@ -1,0 +1,18 @@
+# requirements.txt — Application RTE BDD Matériel (version Google Sheets)
+# Installez avec : pip install -r requirements.txt
+
+# ── Interface Streamlit ───────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Manipulation de données ───────────────────────────────────────────────────
+pandas>=2.0.0
+openpyxl>=3.1.0          # lecture/écriture Excel (pour l'import MADU)
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+plotly>=5.20.0
+
+# ── Google Sheets API ─────────────────────────────────────────────────────────
+gspread>=6.0.0                    # client Python pour Google Sheets
+google-auth>=2.28.0               # authentification OAuth2 / Service Account
+google-auth-oauthlib>=1.2.0       # (optionnel) flux OAuth pour auth utilisateur
+google-api-python-client>=2.120.0 # (optionnel) client bas niveau pour Drive API
